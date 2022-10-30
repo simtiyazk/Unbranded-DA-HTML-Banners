@@ -1,0 +1,36 @@
+extends ../../../pug/layout
+block title
+	title Unbranded-DA-HTML-Banners-300x600
+block metaSize
+	meta(name="ad.size", content='width=300,height=600')
+block clicktags
+	script(type="text/javascript").
+		var clickTag1 = "https://www.whatishepdelta.com";
+block content
+	#wrapper.centered-layout
+		#frame1wrapper.absolute-position
+			#frame1txt.absolute-position
+				p If you have
+			#frame1hepblock 
+				p.absolute-position HEP B
+			#lineframe1.absolute-position
+			#line2frame1.absolute-position
+			#tempdot.absolute-position
+			#emptydivforline2.absolute-position
+		#frame2wrapper.absolute-position
+			#frame2txt.absolute-position
+				p you could#[br]also have
+			#frame2hepdeltablock 
+				p.absolute-position HEP DELTA
+			#frame2hepblock 
+				p#hepbtxt2.absolute-position HEP B
+			#frame3txt.absolute-position
+				p can't live#[br]in your#[br]body alone&mdash;#[br]it needs
+			#epmtyrevealer.absolute-position
+		#finalframe.absolute-position
+			img(src="images/logo.svg" alt="logo")#logo.absolute-position
+			#finalframetxt.absolute-position
+				p Find out more#[br]about #[span hep delta.]
+			img(src="images/cta.svg" alt="")#cta.absolute-position
+			img(src="images/endmatter.svg" alt="")#endmatter.absolute-position
+			

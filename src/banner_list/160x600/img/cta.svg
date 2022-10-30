@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="154" height="48" viewBox="0 0 154 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffbe4e;
+      }
+
+      .cls-2 {
+        fill: #6d2138;
+        font-size: 14px;
+        font-family: Helvetica;
+      }
+
+      .cls-3 {
+        font-family: Rubik-SemiBold, Rubik;
+        font-weight: 600;
+      }
+    </style>
+  </defs>
+  <g id="button" transform="translate(10)">
+    <path id="Rectangle" class="cls-1" d="M6,0H146c3.866,0,7,2.279,7,5.091V42.909c0,2.812-3.134,5.091-7,5.091H6c-3.866,0-7-2.279-7-5.091V5.091C-1,2.279,2.134,0,6,0Z" transform="translate(-9)"/>
+    <g id="Group" transform="translate(-5 6)">
+      <text id="Visit_WhatIsHepDelta" data-name="Visit WhatIsHepDelta" class="cls-2"><tspan x="59.899" y="11">Visit </tspan><tspan class="cls-3"><tspan x="1.32" y="27">WhatIsHepDelta.com</tspan></tspan></text>
+    </g>
+  </g>
+</svg>

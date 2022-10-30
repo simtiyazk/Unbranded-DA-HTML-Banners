@@ -1,0 +1,196 @@
+$banner-width: 728px;
+$banner-height: 90px;
+
+@import "../../../styles/main";
+.preloader{
+  z-index: 9;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: $banner-width;
+  height: $banner-height;
+}
+@font-face {
+  font-family: "Troutbeck";
+  src: url("../images/TroutbeckDEMO.otf") format("opentype");
+  font-style: normal;
+}
+#wrapper {
+  background-color: #f8f5ed;
+  font-family: "Rubik", sans-serif;
+  width: $banner-width;
+  height: $banner-height;
+  .absolute-position {
+    position: absolute;
+  }
+  img, div {
+    position: absolute;
+  }
+
+  #frame1wrapper, #frame2wrapper, #finalframe  {
+    width: $banner-width;
+    height: $banner-height;
+    top: 0;
+    left: 0;
+  }
+  #frame2wrapper {
+    left: 728px;
+  }
+  #frame1txt {
+    top: 33px;
+    width: 210px;
+    background: #f8f5ed;
+    left: 162px;
+    z-index: 1;
+    opacity: 0;
+    p{
+      font-size: 18px;
+      line-height: 22px;
+      color: #421b59;
+      margin-left: 32px;
+    }
+  }
+
+  #frame1hepblock {
+    width: 160px;
+    height: 80px;
+    z-index: 1;
+    top: 4px;
+    left: 309px;
+    background-color: #f6963d;
+    opacity: 0;
+    p{
+      font-size: 25px;
+      line-height: 32px;
+      font-family: "Troutbeck";
+      color: #fff;
+      top: 24px;
+      left: 60px;
+    }
+
+  }
+
+  #lineframe1 {
+    width: auto;
+    height: auto;
+    top: 38.5px;
+    left: 162px;
+    opacity: 0;
+  }
+
+  #frame2txt {
+    width: auto;
+    height: auto;
+    top: 13px;
+    text-align: center;
+    left: 119px;
+    p{
+      font-size: 18px;
+      line-height: 22px;
+      color: #421b59;
+    }
+  }
+
+  #frame2hepdeltablock {
+    width: 80px;
+    height: 80px;
+    top: 4px;
+    left: 309px;
+    background-color: #c0222c;
+    z-index: 1;
+
+    p {
+      font-size: 24px;
+      line-height: 31px;
+      font-family: "Troutbeck";
+      color: #fff;
+      top: 25px;
+      left: 8px;
+    }
+  }
+
+  #frame2hepblock {
+    width: 80px;
+    height: 80px;
+    top: 4px;
+    left: 389px;
+    background-color: #f6963d;
+    z-index: 1;
+
+    p#hepbtxt2 {
+      font-size: 24px;
+      line-height: 31px;
+      font-family: "Troutbeck";
+      color: #fff;
+      top: 25px;
+      left: 21px;
+      opacity: 0.3;
+    }
+  }
+  #frame3txt {
+    width: auto;
+    height: auto;
+    top: 23px;
+    text-align: center;
+    left: 277px;
+    opacity: 0;
+    p{
+      font-size: 18px;
+      line-height: 22px;
+      color: #421b59;
+    }
+  }
+  #epmtyrevealer {
+    width: 60px;
+    height: 88px;
+    top: 0;
+    left: 249px;
+    background-color: #f8f5ed;
+    opacity: 0;
+  }
+
+  #finalframe {
+    opacity: 0;
+    #logo {
+      width: 155px;
+      height: auto;
+      top: 11px;
+      left: 11px;
+    }
+
+    #finalframetxt {
+      width: 298px;
+      height: auto;
+      top: 36px;
+      text-align: center;
+      left: 166px;
+      p{
+        font-size: 18px;
+        line-height: 22px;
+        color: #421b59;
+
+        span {
+          color: #c0222c;
+        }
+      }
+    }
+
+    #cta {
+      width: 256px;
+      height: auto;
+      top: 18px;
+      left: 462px;
+    }
+
+    #endmatter {
+      width: auto;
+      height: auto;
+      bottom: 10px;
+      right: 20px;
+    }
+  }
+
+
+}
+
+// ISI styles

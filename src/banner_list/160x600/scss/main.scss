@@ -1,0 +1,239 @@
+$banner-width: 160px;
+$banner-height: 600px;
+
+@import "../../../styles/main";
+.preloader{
+  z-index: 9;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: $banner-width;
+  height: $banner-height;
+}
+@font-face {
+  font-family: "Troutbeck";
+  src: url("../images/TroutbeckDEMO.otf") format("opentype");
+  font-style: normal;
+}
+#wrapper {
+  background-color: #f8f5ed;
+  font-family: "Rubik", sans-serif;
+  width: $banner-width;
+  height: $banner-height;
+  .absolute-position {
+    position: absolute;
+  }
+  img, div {
+    position: absolute;
+  }
+
+  #frame1wrapper, #frame2wrapper, #finalframe  {
+    width: $banner-width;
+    height: $banner-height;
+    top: 0;
+    left: 0;
+  }
+  #frame2wrapper {
+    left: 160px;
+  }
+  #frame1txt {
+    top: 78px;
+    left: 27px;
+    opacity: 0;
+    p{
+      font-size: 20px;
+      line-height: 24px;
+      color: #421b59;
+    }
+  }
+
+  #frame1hepblock {
+    width: 131px;
+    height: 130px;
+    z-index: 1;
+    top: 120px;
+    left: 14px;
+    background-color: #f6963d;
+    opacity: 0;
+    p{
+      font-size: 37px;
+      line-height: 47px;
+      font-family: "Troutbeck";
+      color: #fff;
+      top: 41px;
+      left: 37px;
+    }
+
+  }
+
+  #lineframe1 {
+    // width: auto;
+    // height: auto;
+    // top: 250px;
+    // left: 74px;
+    // opacity: 0;
+    opacity: 0;
+    width: 4px;
+    height: 74px;
+    top: 250px;
+    left: 74px;
+    background-color: #421b59;
+    
+    
+  }
+  #tempdot {
+    width: 13px;
+    height: 13px;
+    left: 69px;
+    top: 319px;
+    color: #421b59;
+    background: #421b59;
+    border-radius: 50%;
+    opacity: 0;
+    z-index: 2;
+  }
+  #line2frame1 { 
+    width: 100px;
+    height: 4px;
+    top: 324px;
+    left: -30px;
+    background-color: #421b59;
+    opacity: 0;
+
+    &::after {
+      content: "";
+      width: 13px;
+      height: 13px;
+      position: absolute;
+      right: -12px;
+      z-index: 2;
+      top: -5px;
+      color: #421b59;
+      background: #421b59;
+      border-radius: 50%;
+    }
+  }
+  #emptydivforline2 {
+    width: 74px;
+    height: 6px;
+    left: 0;
+    top: 324px;
+    background-color: #f8f5ed;
+  }
+
+  #frame2txt {
+    width: auto;
+    height: auto;
+    top: 212px;
+    text-align: center;
+    left: 32px;
+    p{
+      font-size: 20px;
+      line-height: 24px;
+      color: #421b59;
+    }
+  }
+
+  #frame2hepdeltablock {
+    width: 131px;
+    height: 65px;
+    top: 270px;
+    left: 14px;
+    background-color: #c0222c;
+    z-index: 1;
+
+    p {
+      font-size: 37px;
+      line-height: 47px;
+      font-family: "Troutbeck";
+      color: #fff;
+      top: 9px;
+      left: 15px;
+    }
+  }
+
+  #frame2hepblock {
+    width: 131px;
+    height: 65px;
+    top: 335px;
+    left: 14px;
+    background-color: #f6963d;
+    z-index: 1;
+
+    p#hepbtxt2 {
+      font-size: 37px;
+      line-height: 47px;
+      font-family: "Troutbeck";
+      color: #fff;
+      top: 9px;
+      left: 36px;
+      opacity: 0.3;
+    }
+  }
+  #frame3txt {
+    width: auto;
+    height: auto;
+    top: 229px;
+    text-align: center;
+    left: 22px;
+    opacity: 0;
+    p{
+      font-size: 20px;
+      line-height: 24px;
+      color: #421b59;
+    }
+  }
+
+  #epmtyrevealer {
+    width: 158px;
+    height: 48px;
+    left: 0;
+    top: 222px;
+    background-color: #f8f5ed;
+    opacity: 0;
+  }
+  #finalframe {
+    opacity: 0;
+    #logo {
+      width: 147px;
+      height: auto;
+      top: 143px;
+      left: 7px;
+    }
+
+    #finalframetxt {
+      width: 120px;
+      height: auto;
+      top: 233px;
+      text-align: center;
+      left: 20px;
+      p{
+        font-size: 20px;
+        line-height: 24px;
+        color: #421b59;
+
+        span {
+          color: #c0222c;
+        }
+      }
+    }
+
+    #cta {
+      width: 154px;
+      height: auto;
+      top: 332px;
+      left: 2px;
+    }
+
+    #endmatter {
+      width: auto;
+      height: auto;
+      bottom: 0px;
+      right: 10px;
+    }
+  }
+  
+  
+}
+
+// ISI styles
